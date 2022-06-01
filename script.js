@@ -29,7 +29,6 @@ class NasaPOD {
     this.description = description;
     this.image = image;
   }
-
   showInfo() {
     document.querySelector("h1").innerText = this.date;
     document.querySelector("h2").innerText = this.title;

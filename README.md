@@ -6,4 +6,4 @@ The objective is to have the user be able to enter a date and then get in return
 
 Tech used: HTML, CSS, JavaScript, NASA API
 
-Using NASA API, user is able to choose in date in the past or the current day to get the Picture of the day from Nasa
+Using NASA API, user is able to choose in date in the past or the current day to get the Picture of the day from Nasa.
