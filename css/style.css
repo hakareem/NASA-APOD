@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: #fffefe;
+  overflow-x: hidden;
+  background: rgb(238, 39, 39)
+    url("https://apod.nasa.gov/apod/image/2102/rosette_goldman_960.jpg")
+    no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 8rem;
+}
+
+section {
+  text-align: center;
+  background: rgba(4, 217, 255, 0.203);
+  border-radius: 25px;
+  padding: 1.5rem;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fffefe;
+  padding: 1.5rem;
+}
+
+input,
+button {
+  margin-bottom: 4rem;
+  padding: 3px;
+}
+
+p {
+  color: #fffefe;
+  line-height: 1.5;
+  padding: 1.5rem;
+}
+
+@media (max-width: 490px) and (orientation: portrait) {
+  body {
+    background-position: center;
+    background-size: stretch;
+  }
+}
